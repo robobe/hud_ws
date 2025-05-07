@@ -1,0 +1,4 @@
+joystick_interface:
+  ubuntu:
+    path: /workspace/submodules/simple_joy_ws/src/joystick_interface
+    apt: ros-humble-joystick-interface

@@ -1,0 +1,8 @@
+install/
+deb/
+log/
+build/
+debian/
+*.deb
+*.ddeb
+.obj*-linux-gnu
