@@ -17,9 +17,17 @@
       {
         "label": "build rome_interfaces",
         "type": "shell",
-        "command": "source ${workspaceFolder}/install/bash && bloom-generate rosdebian && ./debian_scripts/patch_rule.sh && ./debian_scripts/patch_compat.sh && fakeroot debian/rules binary",
+        "command": "source ${workspaceFolder}/install/setup.bash && bloom-generate rosdebian && ./debian_scripts/patch_rule.sh && ./debian_scripts/patch_compat.sh && fakeroot debian/rules binary",
         "options": {
           "cwd": "${workspaceFolder}/src/rome_interfaces",
+        }
+      },
+      {
+        "label": "build rome_hud",
+        "type": "shell",
+        "command": "source ${workspaceFolder}/install/setup.bash && bloom-generate rosdebian && ./debian_scripts/patch_rule.sh && ./debian_scripts/patch_compat.sh && fakeroot debian/rules binary",
+        "options": {
+          "cwd": "${workspaceFolder}/src/rome_hud",
         }
       },
       {
