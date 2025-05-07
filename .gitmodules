@@ -1,0 +1,3 @@
+[submodule "submodules/simple_joy_ws"]
+	path = submodules/simple_joy_ws
+	url = https://github.com/robobe/simple_joy_ws.git
