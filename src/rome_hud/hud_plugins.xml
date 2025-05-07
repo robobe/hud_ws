@@ -1,0 +1,17 @@
+<library path="rome_hud">
+    <class type="rome_hud::Tracker" base_class_type="rome_hud::HudItem">
+      <description>Tracker</description>
+    </class>
+    <class type="rome_hud::MasterCaution" base_class_type="rome_hud::HudItem">
+      <description>MasterCaution</description>
+    </class>
+    <class type="rome_hud::FID" base_class_type="rome_hud::HudItem">
+      <description>fid counter</description>
+    </class>
+    <class type="rome_hud::SMStatus" base_class_type="rome_hud::HudItem">
+      <description>state machine status</description>
+    </class>
+    <!-- <class type="polygon_plugins::Triangle" base_class_type="polygon_base::RegularPolygon">
+      <description>This is a triangle plugin.</description>
+    </class> -->
+  </library>
